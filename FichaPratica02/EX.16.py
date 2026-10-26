@@ -1,5 +1,3 @@
-from selectors import SelectSelector
-
 print("_____FP 02 | EX 16_____")
 
 valor = int(input("Valor a Levantar: "))
