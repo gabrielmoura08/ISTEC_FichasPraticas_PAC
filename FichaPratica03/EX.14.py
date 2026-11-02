@@ -4,12 +4,14 @@ n = int(input("Quantos números deseja inserir: "))
 
 crescente = True
 anterior = None
+i = 0
 
-for i in range(n):
+while i < n:
     numero = int(input("Introduza um número: "))
     if anterior is not None and numero < anterior:
         crescente = False
     anterior = numero
+    i += 1
 
 if crescente:
     print("Crescente")
